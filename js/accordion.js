@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+export default () => {
     const featureLinkElements = document.querySelectorAll('.feature__link');
     const featureSubElems = document.querySelectorAll('.feature-sub');
 
@@ -21,4 +21,4 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-});
+};
